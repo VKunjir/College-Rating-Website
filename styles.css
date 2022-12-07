@@ -1,0 +1,148 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #1a2491;
+    color: white;
+}
+
+.navbar{
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100vw;
+    background-color: #D9D9D9;
+}
+
+.logo, .searchLogo{
+    height: 50px;
+    width: 50px;
+    margin: 0px 10px;
+}
+
+.searchBox{
+    border-radius: 50px;
+    width: 30vw;
+    border: none;
+    background-color: #737373;
+    color: white;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+
+
+.searchBox::placeholder{
+    color: white;
+}
+
+button{
+    border-radius: 20px;
+    margin: 0px 10px;
+    height: 95%;
+    width: 100px;
+    font-size: 15px;
+    border:none;
+    font-weight: bold;
+}
+
+.search, .right, .left{
+    display: flex;
+    height: 8vh;
+}
+
+.reviewBt{
+    background-color: #008037;
+    color: white;
+}
+
+.loginBt{
+    background-color: #03989E;
+    color: white;
+}
+
+.topHeading{
+    margin: 30px auto;
+    text-align: center;
+
+}
+
+
+
+.colleges {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.enggHeading, .medHeading, .sciHeading{
+    text-align: center;
+}
+
+.enggClgNames, .medClgNames, .sciClgNames{
+    border-radius: 10px;
+    background-color:#A6A6A6;
+    width: 27vw;
+    height: 60vh;
+
+    color: black;
+    font-weight: bold;
+    
+}
+
+.enggList, .medList, .sciList{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.enggClgNames{
+    background-image: url(engg.png);
+    
+}
+
+.medClgNames{
+    background-image: url(med.png);
+}
+
+.sciClgNames{
+    background-image: url(sci.png);
+}
+
+
+a, a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+.animate.pop {
+    animation-duration: 0.5s;
+    animation-name: animate-pop;
+    animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
+  }
+  
+  @keyframes animate-pop {
+    0% {
+      opacity: 0;
+      transform: scale(0.5, 0.5);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: scale(1, 1);
+    }
+  }
+
+
